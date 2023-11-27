@@ -1,0 +1,44 @@
+.contant-menu{
+ width: 100%;
+ border-bottom: 1px solid rgb(244, 190, 97);
+ display:flex;
+ justify-content: space-between;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ height: auto;
+ padding: 20px;
+ position: relative;
+}
+.menu{
+    margin-top: 100px;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+.img-menu{
+    width:220px;
+
+}
+.icone-img{
+    width: 40px;
+    height: 40px;
+   
+}
+.icone-img2{
+    width: 30px;
+    height: 30px;
+
+}
+
+.btn-add{
+    color: #ffc554;
+    background-color: #fff4d4; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 13px; 
+    border:none;
+    position: absolute;
+    right:100px;
+    top:66%;
+}

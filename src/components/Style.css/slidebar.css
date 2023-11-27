@@ -1,0 +1,53 @@
+/* slidebar.css */
+
+.slidebar-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slidebar {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slidebar-slide {
+  flex-shrink: 0;
+  margin-right: 10px; /* Adjust the spacing between slides */
+  opacity: 0.6; /* Adjust the opacity for non-active slides */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Apply different styles to the active slide */
+.slidebar-slide.active {
+  opacity: 1; /* Make the active slide fully visible */
+  /* Add any additional styling for the active slide here */
+}
+
+.slidebar-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.slidebar-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}

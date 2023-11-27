@@ -1,0 +1,49 @@
+
+.carousel-container1 {
+    position: relative;
+    width: 50%;
+    /* max-width: 900px;  */
+    margin: 0 auto;
+  }
+  
+ 
+  .carousel-slide {
+    display: none;
+    width: 100%;
+    transition: opacity 0.5s;
+  }
+  
+ 
+  .carousel-slide.active {
+    display: block;
+    opacity: 1;
+  }
+  
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+  .carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+ 
+  .carousel-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+
+  .carousel-buttons button:hover {
+    background-color: #555;
+  }
+  

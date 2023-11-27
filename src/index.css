@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.costum-input{
+  width:400px;
+  max-width: 350px;
+}
+ 
+.loding{
+   width:100%;
+  
+   background-color: rgb(245, 211, 165);
+   display: flex;
+   justify-content: space-between;
+}
+.spinner-border{
+  width: 200px;
+  height: 200px;
+  margin: 180px;
+  margin-left:480px;
+  text-align: center;
+  color: rgb(251, 192, 120);
+}
+
+
+/* .btn:hover{
+  box-shadow: rgb(66, 66, 68) 1px 2px 5px;
+} */
